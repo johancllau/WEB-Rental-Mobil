@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Daftar</title>
+</head>
+<body bgcolor="#37988e">
+	<h3 align="center">Form Daftar</h3>
+	<form = name="form-Daftar" action="Daftar.php" method="post">
+		<table border="0" align="center" cellpadding="10">
+			<tr>
+				<td><label for="Nama">Name</label></td>
+				<td><input type="text" name="name" id="Nama" placeholder="Name"></td>
+			</tr>
+			<tr>
+				<td><label for="E-mail">E-mail</label></td>
+				<td><input type="email" name="email" id="E-mail" placeholder="yohak@gmail.com"></td>
+			</tr>
+			<tr>
+				<td><label for="Username">Username</label></td>
+				<td><input type="text" name="username" id="Username" placeholder="username"></td>
+			</tr>
+			<tr>
+				<td><label for="Password">Password</label></td>
+				<td><input type="password" name="password" id="Password" placeholder="password"></td>
+			</tr>
+			<tr>
+				<td><label for="JK">Gender</label></td>
+				<td>
+					<input type="radio" name="jk" value="Male" checked="true">Male
+					<input type="radio" name="jk" value="Female">Female
+				</td>
+			</tr>
+			<tr>
+				<td><label for="No-telp">No.Telp</label></td>
+				<td><input type="text" name="notelp" id="No-telp" placeholder="082237xxxxxxx"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="daftar" value="Daftar" align="center">
+					<input type="reset" name="reset" value="Reset" align="center">
+					<input type="button" name="cancel" value="Cancel" align="center" onclick="self.history.back()">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

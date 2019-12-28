@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Login</title>
+</head>
+<body  bgcolor="#37988e">
+	<h3 align="center">Form Login</h3>
+	<form = name="form-login" action="login.php" method="post">
+		<table border="0" align="center" cellpadding="10">
+			<tr>
+				<td><label for="username">Username</label></td>
+				<td><input type="text" name="username" id="username" placeholder="username"></input></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password</label></td>
+				<td><input type="password" name="password" id="password" placeholder="password"></input></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="Login" value="Login">
+					<input type="button" value="Cancel" onclick="self.history.back()">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align=center>Belum Memiliki Account ? <a href="form_daftar.html">Daftar Sini</a></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
